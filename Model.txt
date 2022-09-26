@@ -1,0 +1,47 @@
+Timed heat reflex
+
+Subsystems
+1. Pain receptors
+	measure heat/ damage
+	pass pain intensity to CNS
+2. CNS
+	recieve input from pain receptors 
+	check if pain > thresshold
+		pass activation signal to motor neuron
+3. Motor Neuron (Action)
+	monitor input from CNS
+	check if activation signal is present
+		send contraction signal to muscles
+
+
+
+Pain receptor (with inherent “conversion factor”)
+
+start
+measure “heat”
+convert “heat” to “signal frequency” using “conversion factor”
+produce “signal”
+pass “signal”
+return to start
+
+
+CNS (with inherent “threshold”, “activation signal”)
+
+start
+measure “signal frequency” <- “signal” over period of time 
+check if “signal frequency” > “threshold”
+	pass “activation signal” to motor neuron
+return to start
+
+
+Motor Neuron
+
+start
+monitor input from CNS
+check if "activation signal" present
+	send "contraction signal" to muscles
+return to start
+
+
+
+
